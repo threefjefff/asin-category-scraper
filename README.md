@@ -28,6 +28,6 @@ You've now got everything you need for success. Here's the command to run throug
 ts-node . example.csv
 ```
 
-This will create a file called `categories.csv`, a tab-seperated CSV that contains the ASIN, a name we found, 
+This will create a file called `categories.tsv`, a tab-seperated CSV that contains the ASIN, a name we found, 
 and a list of categories in increasing specificity we found by visiting the product for that page. 
-`example-categories.csv` shows you what to expect.
+`example-categories.tsv` shows you what to expect.

@@ -22,7 +22,7 @@ export const readCsv = (inPath: string) => new Promise<any>(resolve => {
 
 export const createCategoryCSV = (data) => {
     return new Promise<void>((resolve, reject) => {
-        const outPath = `./categories.csv`;
+        const outPath = `./categories.tsv`;
         const ws = fs.createWriteStream(outPath);
         ws.on('error', reject);
         ws.on('finish', () => {
